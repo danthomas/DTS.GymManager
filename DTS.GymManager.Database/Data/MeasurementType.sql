@@ -1,0 +1,5 @@
+﻿insert into MeasurementType (MeasurementTypeId, Name) values (1, 'None')
+insert into MeasurementType (MeasurementTypeId, Name) values (2, 'Weight')
+insert into MeasurementType (MeasurementTypeId, Name) values (4, 'Height')
+insert into MeasurementType (MeasurementTypeId, Name) values (8, 'Distance')
+insert into MeasurementType (MeasurementTypeId, Name) values (16, 'Energy')

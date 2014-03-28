@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DTS.GymManager.Database", "DTS.GymManager.Database\DTS.GymManager.Database.sqlproj", "{4F224B47-FB6B-4929-A5B5-18C6488EAD0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTS.GymManager.Tests", "DTS.GymManager.Tests\DTS.GymManager.Tests.csproj", "{FF436607-EEEE-485C-A21A-2A6FCBEF21CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTS.GymManager.Domain", "DTS.GymManager.Domain\DTS.GymManager.Domain.csproj", "{5BA75860-A12E-46A8-8399-07F78F335F42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTS.GymManager.Repository", "DTS.GymManager.Repository\DTS.GymManager.Repository.csproj", "{90C0D7F9-98E6-4841-8FB0-9D220AFC8BBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTS.GymManager.Services", "DTS.GymManager.Services\DTS.GymManager.Services.csproj", "{9FD89433-0A7F-40A6-8462-FB51A732D9C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F224B47-FB6B-4929-A5B5-18C6488EAD0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F224B47-FB6B-4929-A5B5-18C6488EAD0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F224B47-FB6B-4929-A5B5-18C6488EAD0D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4F224B47-FB6B-4929-A5B5-18C6488EAD0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F224B47-FB6B-4929-A5B5-18C6488EAD0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F224B47-FB6B-4929-A5B5-18C6488EAD0D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FF436607-EEEE-485C-A21A-2A6FCBEF21CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF436607-EEEE-485C-A21A-2A6FCBEF21CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF436607-EEEE-485C-A21A-2A6FCBEF21CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF436607-EEEE-485C-A21A-2A6FCBEF21CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA75860-A12E-46A8-8399-07F78F335F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA75860-A12E-46A8-8399-07F78F335F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA75860-A12E-46A8-8399-07F78F335F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA75860-A12E-46A8-8399-07F78F335F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C0D7F9-98E6-4841-8FB0-9D220AFC8BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C0D7F9-98E6-4841-8FB0-9D220AFC8BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C0D7F9-98E6-4841-8FB0-9D220AFC8BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C0D7F9-98E6-4841-8FB0-9D220AFC8BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD89433-0A7F-40A6-8462-FB51A732D9C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD89433-0A7F-40A6-8462-FB51A732D9C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD89433-0A7F-40A6-8462-FB51A732D9C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD89433-0A7F-40A6-8462-FB51A732D9C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

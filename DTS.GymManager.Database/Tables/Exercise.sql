@@ -1,0 +1,7 @@
+﻿CREATE TABLE Exercise
+(
+	ExerciseId SMALLINT IDENTITY(1, 1) NOT NULL
+	, Name VARCHAR(100) NOT NULL
+	, MeasurementTypeId TINYINT NOT NULL
+	, CONSTRAINT PK_Exercise PRIMARY KEY (ExerciseId)
+)

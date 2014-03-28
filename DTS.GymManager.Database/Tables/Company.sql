@@ -1,0 +1,6 @@
+﻿CREATE TABLE Company
+(
+	CompanyId SMALLINT IDENTITY(1, 1) NOT NULL
+	, Name VARCHAR(100) NOT NULL
+	, CONSTRAINT PK_Company PRIMARY KEY (CompanyId)
+)

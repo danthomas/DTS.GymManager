@@ -1,0 +1,9 @@
+﻿CREATE TABLE Member
+(
+	MemberId INT IDENTITY(1, 1) NOT NULL
+	, UserName VARCHAR(20) NOT NULL
+	, FirstName VARCHAR(50) NOT NULL
+	, LastName VARCHAR(50) NOT NULL
+	, PreferredName VARCHAR(50) NOT NULL
+	, CONSTRAINT PK_Member PRIMARY KEY (MemberId)
+)

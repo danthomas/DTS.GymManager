@@ -1,0 +1,5 @@
+﻿insert into WorkoutType (WorkoutTypeId, Name, Description) values (1, 'AMRAP', 'As many rounds as possible in the specified time limit.')
+insert into WorkoutType (WorkoutTypeId, Name, Description) values (2, 'For Time', 'Complete all reps in the quickest time.')
+insert into WorkoutType (WorkoutTypeId, Name, Description) values (3, 'Tabata', 'Excercise then rest during the specified intervals.')
+insert into WorkoutType (WorkoutTypeId, Name, Description) values (4, 'AMCRAP', 'As many complete rounds as possible.')
+insert into WorkoutType (WorkoutTypeId, Name, Description) values (5, 'General', 'No specified time limit or reps.')

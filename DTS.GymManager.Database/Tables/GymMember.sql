@@ -1,0 +1,10 @@
+﻿CREATE TABLE GymMember
+(
+	GymMemberId INT IDENTITY(1, 1) NOT NULL
+	, GymId SMALLINT NOT NULL
+	, MemberId INT NOT NULL
+	, DisplayName VARCHAR(50) NOT NULL
+	, CONSTRAINT PK_GmyMember PRIMARY KEY (GymMemberId)
+	, CONSTRAINT FK_GymMember_Gym FOREIGN KEY (GymId) REFERENCES Gym (GymId)
+	, CONSTRAINT FK_GymMember_Member FOREIGN KEY (MemberId) REFERENCES Member (MemberId)
+)
